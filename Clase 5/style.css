@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*estos son selectores de etiqueta, se aplica a todos lo que tiene esa etiqueta
+h1{
+    color: aqua;
+}
+
+p {
+    color: bisque;
+}*/
+h1 {
+    color: chartreuse; text-align: center;
+    font-size: 15px;
+    font-family: font-family: "Playwrite CU", cursive;
+    
+}
+
+/* selector universal, se aplica a todo
+*{
+    color: blueviolet;
+}*/
+/* *{border: 1px solid black;
+}*/
+
+#titulo-principal {
+    color: silver; text-align: center; background-color: aliceblue;
+    font-family: "Playwrite CU", cursive;
+}
+
+/*selectores por clase
+Se usa el atriburo class dentro del codigo asi: ej <p class= "parrafo" y se referecia en CSS como .parrafo {xxxxxxxxxx; xxxxxxx;}*/
+.parrafo{
+    color:blue;
+}
+/*psudo clases aplica un estilo a cada elemento cuando el estado de ese elemento cambie, 
+ej: li:hover {backgrond-color: rojo; cursor: poiner;}*/
+li:hover {
+    background-color: chocolate;
+    cursor: pointer;
+}
+/*gerarquia para aplicar estilos
+1. atriburo style
+2. estilos del selector con id
+3. estilos del selector con clase y pseudo-calse
+4. estilos del selector por etiqueta, ej. h1.
+5. selector universal
+*/
+
+#parrafo2 {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    height: 55vh;
+    background-color: aliceblue;
+    background-image: url(https://www.futbolred.com/files/article_main/uploads/2024/09/10/66e0c31702f2a.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1em;
+
+}
